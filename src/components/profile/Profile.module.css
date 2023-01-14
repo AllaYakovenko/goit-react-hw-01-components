@@ -1,0 +1,71 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f5faf7;
+
+    margin-top: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.avatar{
+    display: flex;
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+}
+
+.name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 40px;
+
+    margin: 0;
+}
+
+.tag, .location{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.35);
+
+    margin: 0;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #f0f1f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
+    padding: 40px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.quantity{
+    color: #010101;    
+}
