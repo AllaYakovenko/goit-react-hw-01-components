@@ -1,2 +1,43 @@
 .transactionHistory{
+    margin: 20px auto;
+
+    border-radius: 4px;
+    border: 1px solid #f0f1f0;
+}
+
+.transactionProperty{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: dimgray;
+    background-color: #f5faf7;
+}
+
+.transactionType, .transactionAmount, .transactionCurrency{
+    border-right: 1px solid f5faf7;
+    border-bottom: 1px solid f5faf7;
+
+} 
+
+.dataType, .dataAmount, .dataCurrency{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: dimgray;
+    background-color: #f0eeee;
+
+    border-bottom: 1px solid f5faf7;
+    border-right: 1px solid f5faf7;
+
+    padding: 10px 50px;
+}
+
+.dataType{
+    text-transform: capitalize;
+}
+
+.transactionCurrency, .dataCurrency {
+    border-right: 0;
 }
