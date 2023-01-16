@@ -35,17 +35,18 @@
     color: dimgray;
 }
 
-/* .status{
-    border-radius: 50%;
-    
-} */
-
 .online{
-    /* composes: status; */
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: green;    
 }
 
-.ofline {
-    /* composes: status; */
+.offline {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: red;
 }

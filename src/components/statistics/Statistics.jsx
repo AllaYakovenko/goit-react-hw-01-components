@@ -2,8 +2,19 @@ import PropTypes from 'prop-types';
 import css from 'components/statistics/Statistics.module.css';
 
 function getRandomHexColor() { 
-  let bgColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-  return bgColor;
+  // let bgColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+  // return bgColor;
+
+let color =
+    'rgb(' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ')';
+
+  return color;
 }
 
 const Statistics = ({ title, stats }) => { 
