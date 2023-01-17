@@ -1,11 +1,11 @@
 import Profile from 'components/profile/Profile';
-import user from 'components/profile/user.json';
+import user from 'data/user.json';
 import Statistics from 'components/statistics/Statistics';
-import data from 'components/statistics/data.json';
+import data from 'data/data.json';
 import FriendList from 'components/friendlist/FriendList';
-import friends from 'components/friendlist/friends.json';
+import friends from 'data/friends.json';
 import TransactionHistory from 'components/transactionHistory/TransactionHistory';
-import transactions from 'components/transactionHistory/transactions.json';
+import transactions from 'data/transactions.json';
 
 export default function App(){
   return (
@@ -28,7 +28,6 @@ export default function App(){
       />
 
       <Statistics title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
 
       <FriendList friends={friends} />
 
